@@ -1,3 +1,10 @@
+h1 {
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: #3A82E4;
+  margin-bottom: 3%;
+}
+
 /* Navbar */
 .navbar {
   transition: 500ms ease;
@@ -27,7 +34,7 @@
 /* change navbar background on collapse */
 @media (max-width: 768px) {
   nav.navbar {
-    background: RGBA(0,0,0,1);;
+    background: RGBA(0,0,0,1);
   }
 }
 
