@@ -1,0 +1,133 @@
+/* Navbar */
+.navbar {
+  transition: 500ms ease;
+}
+
+.navbar.scrolled {
+  background:rgb(0, 0, 0);
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #3A82E4!important;
+}
+
+/* change hamburger button border color */
+.custom-toggler.navbar-toggler {
+    border-color: rgb(58, 130, 228);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(58, 130, 228, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* change navbar background on collapse */
+@media (max-width: 768px) {
+  nav.navbar {
+    background: RGBA(0,0,0,1);;
+  }
+}
+
+#navbar-langues{
+  list-style: none;
+}
+
+
+/* Carousel */
+.slider-size {
+  height: 100vh; /* Carousel height */
+}
+
+.carousel {
+  width:100%; 
+  margin:0 auto; 
+}
+
+.carousel-caption {
+  transform: translateY(-33%);
+  bottom:0;
+  top:50%;
+}
+  
+.carousel-image-1 {
+  background: url('../images/carou-1.jpeg');
+  background-size: cover;
+}
+
+.titre-carousel{
+  font-family: 'Raleway','Arial';
+  color: #3A82E4;
+  font-size: 25px;
+  font-weight: 400;
+
+  background: #fff;
+  opacity: .8;
+  box-shadow: none;
+  border-width: 0;
+  border-style: solid;
+  border-color: #000;
+  border-color: RGBA(0,0,0,1);
+  border-radius: 0;
+  padding: 3%;
+}
+
+.texte-carousel{
+  font-family: 'Raleway','Arial';
+  color: #fff;
+  font-size: 137.5%;
+  text-shadow: none;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 2px;
+  word-spacing: normal;
+
+  background: RGBA(0,0,0,.8);
+  opacity: 1;
+  padding: .8em 1em .8em 1em;
+  box-shadow: none;
+  border-width: 0;
+  border-style: solid;
+  border-color: RGBA(0,0,0,1);
+  border-radius: 0;
+  padding: 3%;
+}
+
+.carousel-control-prev{
+  color: #71b347 !important;
+}
+
+ol.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 33%;
+  height: 10px;
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+}
+
+ol.carousel-indicators li.active {
+  background: #3A82E4;
+}
+
+
+/* MAIN CONTENT
+FIX: navbar fixed-top so our content doesn't goes under */
+main{
+  margin-top: 56px;
+}
