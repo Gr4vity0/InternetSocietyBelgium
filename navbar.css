@@ -1,0 +1,36 @@
+/* NAVBAR */
+.navbar {
+    transition: 500ms ease;
+  }
+  
+  .navbar.scrolled {
+    background:rgb(0, 0, 0);
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .nav-link:hover {
+    color: #3A82E4!important;
+  }
+  
+  /* change hamburger button border color */
+  .custom-toggler.navbar-toggler {
+      border-color: rgb(58, 130, 228);
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(58, 130, 228, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  /* change navbar background on collapse */
+  @media (max-width: 768px) {
+    nav.navbar {
+      background: RGBA(0,0,0,1);
+    }
+  }
+  
+  #navbar-langues{
+    list-style: none;
+  }
