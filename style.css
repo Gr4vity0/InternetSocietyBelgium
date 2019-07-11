@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Hind&display=swap');
+
+
+body {
+  font-size: 1rem;
+}
+  
+/* FIX: navbar fixed-top so our content doesn't goes under */
+main {
+  margin-top: 56px;
+}
+
 h1 {
+  font-size: 2em;
   text-decoration: underline;
   text-underline-position: under;
   text-decoration-color: #3A82E4;
-  margin-bottom: 3%;
 }
 
-/* Navbar */
+.btn-rounded {
+  border-radius: 15px;
+}
+
+/* NAVBAR */
 .navbar {
   transition: 500ms ease;
 }
@@ -43,9 +59,19 @@ h1 {
 }
 
 
-/* Carousel */
+/* CAROUSEL */
+@keyframes zoomin {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.1, 1.1);
+  }
+}
+
 .slider-size {
   height: 100vh; /* Carousel height */
+  animation: zoomin 20s infinite alternate;
 }
 
 .carousel {
@@ -57,11 +83,6 @@ h1 {
   transform: translateY(-33%);
   bottom:0;
   top:50%;
-}
-  
-.carousel-image-1 {
-  background: url('../images/carou-1.jpeg');
-  background-size: cover;
 }
 
 .titre-carousel{
@@ -133,8 +154,20 @@ ol.carousel-indicators li.active {
 }
 
 
-/* MAIN CONTENT
-FIX: navbar fixed-top so our content doesn't goes under */
-main{
-  margin-top: 56px;
+.internet-for-everyone {
+  width: 100%;
+  background-image: url('./images/map-transparent.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #2b72d6;
+}
+
+.h1-everyone {
+  color: white;
+  font-family: 'Hind',Helvetica,Arial,sans-serif;
+  font-size: 2em;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-color: white;
 }

@@ -23,14 +23,14 @@
       <header role="banner">
         
         <!-- Navbar -->
-        <nav class="navbar navbar-inverse navbar-dark navbar-expand-lg fixed-top px-5 py-3U" role="navigation" aria-label="Menu principal">
-          <a class="navbar-brand" href="./index.html"><img src="./images/isoc-logo.png" alt="Logo ISOC" width="250px"></a>
+        <nav class="navbar navbar-inverse navbar-dark navbar-expand-lg fixed-top p-3" role="navigation" aria-label="Menu principal">
+          <a class="navbar-brand" href="./index.html"><img src="./images/isoc-logo.png" alt="Logo ISOC" width="225px"></a>
           <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           
           <!-- Navbar Menu -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse collapse-color text-right pr-3" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
@@ -58,7 +58,7 @@
           </div>
         </nav>
         
-        <!-- carousel -->
+        <!-- Carousel -->
         <div class="container-fluid p-0 m-0 h-50">
           <div id="carouselExampleIndicators" class="carousel slide m-0 p-0" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -69,32 +69,31 @@
             <div class="carousel-inner">
               <div class="carousel-item active text-center">
                 <div style="background:url('images/carou-1.jpg') center center; 
-                background-size:cover;" class="slider-size">
+                background-size:cover;" class="slider-size"></div>
                 <div class="carousel-caption">
                   <p class="titre-carousel text-center text-uppercase">internet society belgium</p>
                   <p class="texte-carousel text-center text-uppercase">we protect the users</p>
                 </div>
-              </div>
               
             </div>
             <div class="carousel-item text-center">
               <div style="background:url('images/carou-2.jpg') center center; 
-              background-size:cover;" class="slider-size">
+              background-size:cover;" class="slider-size"></div>
                 <div class="carousel-caption">
                   <p class="titre-carousel text-center text-uppercase">internet society belgium</p>
                   <p class="texte-carousel text-center text-uppercase">we protect the users</p>
                 </div>
-            </div>
+            
           </div>
           
           <div class="carousel-item text-center">
             <div style="background:url('images/carou-3.jpg') center center; 
-            background-size:cover;" class="slider-size">
+            background-size:cover;" class="slider-size"></div>
                 <div class="carousel-caption">
                   <p class="titre-carousel text-center text-uppercase">internet society belgium</p>
                   <p class="texte-carousel text-center text-uppercase">we protect the users</p>
                 </div>
-          </div>
+          
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
@@ -112,7 +111,10 @@
 
   <!-- Body -->
   <main class="main text-center" role="main">
-    <h1>Dernières actus</h1>
+
+      <!-- Actus -->
+    <section class="pb-5">
+    <h1 class="pb-5">Dernières actus</h1>
     <div class="card-columns px-5">
       <div class="card">
         <img src="./images/actus/In-the-news-blue.png" class="card-img-top" alt="...">
@@ -215,14 +217,23 @@
           <small class="text-muted">Last updated 3 mins ago</small>
         </div>
       </div>
-      
+
     </div>
+    <button type="button" class="btn btn-outline-primary btn-rounded p-2">View More</button>
+  </section>
+
+  <section class="container-fluid internet-for-everyone py-5">
+    <h1 class="h1-everyone py-5">Creating an Internet for
+      everyone everywhere</h1>
+      <div class="row p-3">
+        <div class="col-sm-12 col-md-6 text-center">
+        <button type="button" class="btn btn-outline-light btn-rounded p-3  m-3 w-50">Become a member</button></div>
+        <div class="col-sm-12 col-md-6 text-center">
+        <button type="button" class="btn btn-outline-light btn-rounded p-3 m-3 w-50">Our mission</button></div>
+      </div>
+  </section>
 
   </main>
-  <footer class="container" role="contentinfo">
-
-  </footer>
-  
   
   
   <!-- Optional JavaScript -->
