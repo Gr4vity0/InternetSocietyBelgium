@@ -1,10 +1,13 @@
 /* NAVBAR */
 .navbar {
     transition: 500ms ease;
+    
   }
   
-  .navbar.scrolled {
-    background:rgb(0, 0, 0);
+.scrolled {
+    background: #15151D;
+    -webkit-box-shadow: 0px 0px 15px 0px #000000; 
+    box-shadow: 0px 0px 15px 0px #000000;
   }
   
   .nav-link {

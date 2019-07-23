@@ -21,6 +21,10 @@ footer p {
   margin-bottom:8px;
 }
 
+.ok {
+  list-style-type: lower-alpha
+}
+
 .mb10 { 
   padding-bottom:15px ;
 }
