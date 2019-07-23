@@ -25,9 +25,9 @@
     <title>Internet Society Belgium</title>
     
 </head>
-<body>
+<body style="padding-top: 100px;">
     
-    <div class="section" style="margin-top: 56px;  color: #15151D;">
+    <div class="section" style="color: #15151D;">
         <!-- Navbar -->
         <nav class="navbar navbar-inverse navbar-dark navbar-expand-lg fixed-top p-3 pr-4" role="navigation" aria-label="Menu principal">
             <a class="navbar-brand" href="./index.html"><img src="./images/isoc-logo.png" alt="Logo ISOC" width="225px"></a>
@@ -57,7 +57,7 @@
                         <a class="nav-link" href="#">Nous rejoindre</a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contact</a>
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                 </ul>
                 
@@ -76,54 +76,46 @@
     
     
     <!-- Page Content -->
-    <div class="container page-content pb-3" >
+    <section class="container mx-auto p-5 bg-light" style="border-radius: 5px; margin-top: 100px;  margin-bottom: 100px">
 
-        <!-- Title -->
-        <h1 class="text-center my-5">Objectifs de l' Internet Belgium Society</h1>
-
-        <!-- Preview Image -->
-        <img class="card-img-top img-thumbnail" src="./images/piatra-mare1920-1.jpg" alt="About cover image">
-        
-        <!-- Post Content -->
-        <div class="text-center pt-5">
-            <p class="lead">L' Internet Society Belgium permettra de mieux représenter les intérêts économiques, sociaux, culturels et linguistiques des citoyens, des consommateurs et des entreprises de la Belgique au sein du plus influent regroupement mondial d'utilisateurs d'Internet, de même qu'auprès des gouvernements.</p>
-
-            <hr class="w-75 my-5">
+            <h3 class="text-center">Contact us</h3><br />
             
-            <p>ISOC Belgium facilitera aussi le dialogue entre les divers acteurs et utilisateurs d'Internet, en particulier gouvernements, entreprises, citoyens, associations professionnelles, monde de la recherche et de l'éducation.
-            </p>
-
-            <hr class="w-75 my-5">
-
-            <p class="lead">L' Internet Society</p>
-
-            <ol class="text-left">
-                <li style="list-style-type: decimal;">Facilite le développement accessible de normes et de protocoles, l'administration et les structures techniques de l'Internet</li>
-                <li style="list-style-type: decimal;">Soutient la formation dans les pays en développement et ou le besoin existe</li>
-                <li style="list-style-type: decimal;">Soutient le développement professionnel et encourage les occasions de contacts avec les chefs de file de l’Internet </li>
-                <li style="list-style-type: decimal;">Fournit des informations fiables sur l'Internet</li>
-                <li style="list-style-type: decimal;">Organise des forum de discussions sur des questions touchant à l'évolution, au développement et à l'utilisation de l'Internet (aux plans technique, commercial , social etc.) </li>
-                <li style="list-style-type: decimal;">Développe un environnement favorable à la coopération internationale, à la communauté et une culture qui rend possible l'autogestion</li>
-                <li style="list-style-type: decimal;">Sert de point focal pour les efforts communs de promotion de l'Internet en tant qu’outil fiable pour tous les peuples du monde</li>
-                <li style="list-style-type: decimal;">Donne la direction et permet la coordination des efforts sur les plans humanitaire et de l'éducation ainsi qu’ au niveau social etc.</li>
-            </ol>
+            <div class="row">
+              <div class="col-md-8">
+                  <form action="/post" method="post">
+                    <input class="form-control" name="name" placeholder="Name..." /><br />
+                    <input class="form-control" name="phone" placeholder="Phone..." /><br />
+                    <input class="form-control" name="email" placeholder="E-mail..." /><br />
+                    <textarea class="form-control" name="text" placeholder="How can we help you?" style="height:150px;"></textarea><br />
+                    <input class="btn btn-primary" type="submit" value="Send" /><br /><br />
+                  </form>
+              </div>
+              <div class="col-md-4">
+                <b>Customer service:</b> <br />
+                Phone: +1 129 209 291<br />
+                E-mail: <a href="mailto:support@mysite.com">support@mysite.com</a><br />
+                <br /><br />
+                <b>Headquarter:</b><br />
+                Company Inc, <br />
+                Las vegas street 201<br />
+                55001 Nevada, USA<br />
+                Phone: +1 145 000 101<br />
+                <a href="mailto:usa@mysite.com">usa@mysite.com</a><br />
             
-            <hr class="w-75 my-5">
-
-            <p>Avec ces éléments stratégiques en place, l'Internet Society a identifié et entrepris plusieurs projets pour démontrer son engagement pour sa mission. Nombre de ces projets ont été initiés par les chapitres ou résultent des souhaits exprimés par les membres individuels ou par les organisations membres. D'autres ont été entrepris grâce aux efforts des administrateurs, des dirigeants et du personnel du secrétariat à Reston ou à Genève.</p>
-
-            <hr class="w-75 my-5">
             
-            <p>ISOC Belgium entend assurer ou renforcer une présence Belge au sein d'organismes de normalisation comme le Word Wide Web Consortium  (W3C) ou l'Internet Engineering Task Force (IETF) , ainsi qu'au sein d'organismes où se débattent les enjeux sociaux, culturels, économiques et de gouvernance de l'Internet, par exemple, l'Internet Societal Task Force (ISTF), un groupe de travail d'ISOC présidé par l'un des créateurs de l'Internet, Vint Cerf.</p>
+                <br /><br />
+                <b>Hong kong:</b><br />
+                Company HK Litd, <br />
+                25/F.168 Queen<br />
+                Wan Chai District, Hong Kong<br />
+                Phone: +852 129 209 291<br />
+                <a href="mailto:hk@mysite.com">hk@mysite.com</a><br />
+            
+            
+              </div>
             </div>
             
-            <hr class="w-75 my-5">
-
-            <!-- Logo -->
-            <img src="./images/Symbol-Depth-blue-RGB.png" alt="Logo earth Isoc" width="100px" class="pt-5 pb-3">
-        </div>
-        
-    </div>
+          </section>
 
     <!--footer-->
     <footer class="kilimanjaro_area" >
@@ -252,3 +244,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+
