@@ -28,7 +28,7 @@
   }
   
   /* change navbar background on collapse */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     nav.navbar {
       background: RGBA(0,0,0,1);
     }
